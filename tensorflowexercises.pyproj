@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>61207e70-3a23-4b06-bb41-2b260dbfd337</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tensorflowexercises.py</StartupFile>
+    <StartupFile>depruebatensor.py</StartupFile>
     <SearchPath>..\..\..\..\..\Users\LENOVOY720\AppData\Local\Microsoft\VisualStudio\15.0_45d5eaec\Python\CompletionDB-1\Global\ContinuumAnalytics\Anaconda36-64</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="linearregressonhousing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="depruebatensor.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pathdir.py">
