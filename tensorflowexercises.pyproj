@@ -4,12 +4,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>61207e70-3a23-4b06-bb41-2b260dbfd337</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>linearregressonhousing.py</StartupFile>
-    <SearchPath>..\..\..\..\..\Users\LENOVOY720\Anaconda3\Lib\site-packages\scikit_learn-0.21.1.dist-info;..\..\..\..\..\Users\LENOVOY720\AppData\Roaming\Python\Python37\site-packages\tensorflow\contrib\learn\python\learn\estimators</SearchPath>
+    <StartupFile>tensorflowexercises.py</StartupFile>
+    <SearchPath>..\..\..\..\..\Users\LENOVOY720\AppData\Local\Microsoft\VisualStudio\15.0_45d5eaec\Python\CompletionDB-1\Global\ContinuumAnalytics\Anaconda36-64</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>tensorflowexercises</Name>
     <RootNamespace>tensorflowexercises</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|Anaconda</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,10 +27,39 @@
     <Compile Include="linearregressonhousing.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pathdir.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MSE100iter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tensorflowexercises.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|Anaconda" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env2\">
+      <Id>env2</Id>
+      <Version>3.7</Version>
+      <Description>env2 (Anaconda (3.7, 64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+    <Interpreter Include="env3\">
+      <Id>env3</Id>
+      <Version>3.7</Version>
+      <Description>env3 (Anaconda (3.7, 64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
